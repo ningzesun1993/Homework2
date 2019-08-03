@@ -1,4 +1,3 @@
-Attribute VB_Name = "??1"
 Sub Looptest1()
     For j = 1 To Sheets.Count
         Sheets(j).Activate
