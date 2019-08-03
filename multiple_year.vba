@@ -5,7 +5,7 @@ Sub Looptest1()
         Range("J1").Value = "Yearly Changes"
         Range("K1").Value = "Percent Change"
         Range("L1").Value = "Total Stock Volume"
-        Range("I2").Value = "A"
+        Range("I2").Value = Range("A2").Value
         Dim endNum As Long
         Dim firstCount As Integer
         firstCount = 2
